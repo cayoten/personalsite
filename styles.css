@@ -1,4 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* montserrat-500 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/montserrat-v23-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('/fonts/montserrat-v23-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/fonts/montserrat-v23-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/montserrat-v23-latin-500.woff') format('woff'), /* Modern Browsers */
+    url('/fonts/montserrat-v23-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/fonts/montserrat-v23-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
 
 * {
     box-sizing: border-box;
